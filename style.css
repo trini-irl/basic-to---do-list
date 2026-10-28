@@ -1,7 +1,7 @@
 /* General Page Styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #bd2a4a;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@ body {
 
 /* Main Container */
 .container {
-    background: #ffffff;
+    background: #f1bcbc;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
@@ -41,21 +41,22 @@ body {
     transition: border-color 0.2s;
 }
 #taskInput:focus {
-    border-color: #007bff;
+    border-color: #6f6d73;
 }
 
 #addBtn {
     padding: 10px 16px;
-    background-color: #007bff;
+    background-color: #6f6d73;
     color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
     transition: background-color 0.2s;
+    margin-top: 10px;
 }
 #addBtn:hover {
-    background-color: #0056b3;
+    background-color: #6f6d73;
 }
 
 /* Filter Buttons */
@@ -79,9 +80,9 @@ body {
     background-color: #e9ecef;
 }
 .filter-btn.active {
-    background-color: #007bff;
+    background-color: #6f6d73;
     color: white;
-    border-color: #007bff;
+    border-color: #6f6d73;
 }
 
 /* Task List Container */
